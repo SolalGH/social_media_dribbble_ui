@@ -4,7 +4,7 @@ import 'package:gap/gap.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:link_ui_sandbox/components/my_expand_button.dart';
 import 'package:link_ui_sandbox/components/my_simple_like_button.dart';
-import 'package:link_ui_sandbox/my_post.dart';
+import 'package:link_ui_sandbox/components/my_simple_post%20copy.dart';
 
 class SimpleHomePage extends StatelessWidget {
   const SimpleHomePage({super.key});
@@ -113,7 +113,7 @@ class SimpleHomePage extends StatelessWidget {
                         children: List.generate(
                           300,
                           (index) {
-                            return MyPost(stackIndex: 299 - index);
+                            return MySimplePost(stackIndex: 299 - index);
                           },
                         ),
                       ),
